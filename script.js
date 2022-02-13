@@ -17,3 +17,8 @@ function generatePin(){
 
 
 }
+
+document.getElementById('key-pad').addEventListener('click',function(event){
+    // console.log(event.target.innerText);
+    const number=event.target.innerText;
+})
